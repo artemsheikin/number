@@ -14,7 +14,7 @@ let recordTest = document.querySelector(".highscore");
 
 //аудио функции
 function audioClick() {
-    const audio = new Audio('../audio/click.mp3');
+    const audio = new Audio('..//audio/click.mp3');
     audio.play();
 }
 function resetClick() {
