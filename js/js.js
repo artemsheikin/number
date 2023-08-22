@@ -14,15 +14,15 @@ let recordTest = document.querySelector(".highscore");
 
 //аудио функции
 function audioClick() {
-    const audio = new Audio('../audio/click.mp3');
+    const audio = new Audio('./audio/click.mp3');
     audio.play();
 }
 function resetClick() {
-    const audio = new Audio('../audio/reset.mp3');
+    const audio = new Audio('./audio/reset.mp3');
     audio.play();
 }
 function vinClick() {
-    const audio = new Audio('../audio/vin.mp3');
+    const audio = new Audio('./audio/vin.mp3');
     audio.play();
 }
 
